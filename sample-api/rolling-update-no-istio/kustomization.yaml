@@ -4,9 +4,8 @@ kind: Kustomization
 resources:
 - sample-api-deployment.yaml
 - sample-api-svc.yaml
+- sample-api-ingress.yml  
 
 images:
 - name: kmin4/sample-api
   newTag: 0.0.29
-- name: oscka/sample-api
-  newTag: 0.0.24
