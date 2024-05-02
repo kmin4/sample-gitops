@@ -3,7 +3,7 @@ kind: Service
 
 metadata:
   name: sample-api-svc
-  namespace: api
+  namespace: prod
 spec:
   selector:
     app: sample-api

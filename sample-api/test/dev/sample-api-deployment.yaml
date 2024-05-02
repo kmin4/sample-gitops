@@ -2,7 +2,7 @@ apiVersion: apps/v1
 kind: Deployment
 metadata:
   name: sample-api
-  namespace: api  
+  namespace: dev  
   labels:
     app: sample-api
 spec:
