@@ -8,4 +8,4 @@ resources:
 
 images:
 - name: kmin4/sample-api
-  newTag: 0.2.3
+  newTag: 0.2.4
